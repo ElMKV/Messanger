@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/image_19"
+            android:layout_width="173dp"
+            android:layout_height="155dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="center"
+            android:layout_marginTop="130dp"
+            android:background="@drawable/image_19"
+            android:foregroundGravity="center" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/some_id"
+                android:layout_width="149dp"
+                android:layout_height="35dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="27dp"
+                android:fontFamily="Roboto"
+
+                android:gravity="center_horizontal|top"
+                android:text="Выгодный"
+                android:textColor="#000000"
+                android:textSize="30sp" />
+
+
+            <TextView
+                android:id="@+id/active_"
+                android:layout_width="326dp"
+                android:layout_height="42dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
+                android:layout_marginTop="36dp"
+                android:gravity="center_horizontal|top"
+                android:text="Active оплачивает деньги за активность пользователей."
+                android:textColor="#80000000"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:id="@+id/DotsView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/DotsOne"
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_7"
+                    android:backgroundTint="@android:color/darker_gray" />
+
+
+                <!-- drawable/rectangle_7.xml -->
+
+
+                <!-- Rectangle 77 -->
+                <View
+                    android:id="@+id/DotsTwo"
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_7"
+                    android:backgroundTint="#469BFC" />
+
+
+                <!-- drawable/rectangle_7.xml -->
+
+
+                <!-- Rectangle 76 -->
+
+                <View
+                    android:id="@+id/DotsThree"
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_7" />
+
+
+                <!-- drawable/rectangle_7.xml -->
+
+
+                <!-- Rectangle 75 -->
+                <View
+                    android:id="@+id/DotsFour"
+                    android:layout_width="7dp"
+                    android:layout_height="7dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="7dp"
+                    android:layout_marginTop="0dp"
+                    android:background="@drawable/rectangle_7" />
+
+
+                <!-- drawable/rectangle_7.xml -->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="245dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="119dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/rectangle_1"
+                    android:text="Начать общаться"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
